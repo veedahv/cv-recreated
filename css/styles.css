@@ -84,13 +84,35 @@ hr {
 @media (max-width: 786px) {    
 }
 @media (max-width: 596px) {
+    body {
+        padding: 40px 20px;
+    }
+
+    .header {
+        text-align: left;
+        max-width: 700px;
+        margin: 15px auto;
+    }
+
+    .name {
+        font-size: 25px;
+    }
+
+    .job-title {
+        font-size: 20px;
+    }
+
+    .contact-info {
+        display: block;
+    }
+
+    .m-none {
+        display: none;
+    }
+
     .title-box {
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-    }
-
-    body {
-        padding: 40px 20px;
     }
 }
