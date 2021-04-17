@@ -1,0 +1,96 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+body {
+    padding: 40px;
+}
+
+.header {
+    text-align: center;
+    max-width: 700px;
+    margin: 15px auto;
+}
+
+.name {
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.job-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.nav-link {
+    color: inherit;
+    /* color: #000000; */
+    /* text-decoration: underline; */
+}
+
+.nav-link:hover {
+    opacity: .8;
+    /* color: inherit; */
+    /* color: #000000; */
+    /* text-decoration: underline; */
+}
+
+
+.main {
+    max-width: 1000px;
+    margin: 15px auto;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.light {
+    font-weight: lighter;
+}
+
+.profile-note {
+    margin-bottom: 15px;
+}
+
+.title-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.list {
+    margin: 15px 0;
+    margin-left: 25px;
+}
+
+.list-item {
+    line-height: 25px;
+}
+
+
+@media (max-width: 786px) {    
+}
+@media (max-width: 596px) {
+    .title-box {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    body {
+        padding: 40px 20px;
+    }
+}
